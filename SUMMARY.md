@@ -7,7 +7,7 @@
 * [Diseño](diseno/README.md)
 * [Programación](lenguajes/README.md)
 	* [Guias de estilo](lenguajes/guias-de-estilo.md)
-	* [HTML / CSS](lenguajes/html.md)
+	* [HTML / CSS](lenguajes/html-css.md)
 	* [Javascript](lenguajes/js.md)
 	* [Ruby](lenguajes/ruby.md)
 * [Frameworks](frameworks/README.md)
