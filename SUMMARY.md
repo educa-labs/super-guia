@@ -1,9 +1,6 @@
 # Summary
 * [Introduccion](README.md)
 * [Cultura](cultura/README.md)
-	* [Trello](cultura/trello.md)
-	* [Blog](cultura/blog.md)
-	* [Biblioteca](cultura/biblioteca.md)
 * [Diseño](diseno/README.md)
 * [Programación](programacion/README.md)
 	* [Guias de estilo](programacion/guias-de-estilo.md)
