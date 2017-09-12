@@ -1,6 +1,5 @@
 # Summary
 * [Introduccion](README.md)
-* [Cultura](cultura/README.md)
 * [Diseño](diseno/README.md)
 * [Programación](programacion/README.md)
 	* [Guias de estilo](programacion/guias-de-estilo.md)
