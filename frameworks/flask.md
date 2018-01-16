@@ -180,8 +180,8 @@ Donde "miaplicacion" es el nombre de la aplicacion.
 **Es recomendable que el nombre sea el mismo que el del directorio creado <nombre_aplicacion>**
 
 El archivo debe quedar de la siguiente manera:
+`sudo nano /etc/systemd/system/miaplicacion.service`
 ```
-/etc/systemd/system/miaplicacion.service
 [Unit]
 Description=Gunicorn instance for my application
 After=network.target
