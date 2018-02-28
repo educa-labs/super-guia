@@ -1,42 +1,35 @@
 # Trello
 ## 1. Introducción
-Trello será nuestro medio oficial para la metodología Kanban (https://es.atlassian.com/agile/kanban)
+Trello será nuestro medio oficial para la metodología Scrumban o [Kanban](https://es.atlassian.com/agile/kanban)
 
 ## 2. Funcionamiento
-Un board de Trello existirá por desarrollo, sin discriminar entre frontend y backend.
+Un board de Trello existirá por desarrollo, sin discriminar entre distintas componentes del sistema.
 Cada tarjeta tendrá la capacidad de unir servicios como GDrive, Github y campos personalizados.
+
+Todo el contenido de las tarjetas es en inglés.
 
 ## 3 Campos
 
-### 3.1 Horas estimadas
-Aqui se deberán anotar las horas estimadas a utilizar en una cierta tarea.
+### 3.1 Estimate
+Tamaño estimado de una tarea. Unidad de medida dependerá del proyecto.
 
-## 4. Labels
-Habrá 6 tipos de labels, 3 de prioridad y 3 de descripción global.
-Las prioridades serán baja, media y alta (verde, amarillo y rojo respectivamente) y las descripciones serán diseño, feature o administrativo.
+## Labels
 
-### 4.1 Diseño
-Las tarjetas de diseño serán especiales para el diseo de alguna actividad en particular.
-
-### 4.2 Feature
-Estas tarjetas serán del tipo User Story, que abarcarán grandes funcionalidades que luego se dividirán en subtrabajos guardados en los boards de los repositorios en github.
-
-### 4.3 Administrativo
-Serán tarjetas con trabajos administrativos relacionados con el proyecto.
-
-## 5. Prioridades
-Las prioridades solo podran ser designadas por el CTO, lo que no significa que no pueda recibir sugerencias de cambio de prioridades.
+Dependerán del proyecto.
 
 ## 6. Columnas
-Trabajaremos con 6 columnas
-* Backlog: contiene todas las tareas a realizar en el proyecto (pueden ir apareciendo más)
-* Ready: contiene las tareas listas y aprobadas para comenzar a realizarse
-* In progress: Son las tareas que están siendo realizadas. Solo puede haber dos (2) al mismo tiempo. Solo pueden pasar tarjetas que vengan desde la columna Ready.
-* Testing: Tareas que estén siendo testeadas por el equipo. En caso de rechazarse se debe dejar un comentario y volverlo al backlog al comienzo de la columna con prioridad alta.
-* Done: Tareas terminadas
+Trabajaremos con 7 columnas, las cuales en todo momento deben estar ordenadas por prioridad.:
 
-## 7. Propiedades de nuestro Kanban
-El máximo de tareas a realizar en paralelo es de 2 tareas (columna In Progress)
+* To Do: contiene todas las tareas a realizar en la iteración actual.
 
-## 8. Issues de Github
-Cada vez que se cree una Issue de github, se debe agregar una referencia con el plugin de Github en Trello
+* Next: contiene las tareas aprobadas para comenzar a realizarse. Tiene un límite de 2 tarjetas a la vez.
+
+* Development: Son las tareas que están en desarrollo.  Solo pueden pasar tarjetas que vengan desde la columna Next.
+
+* Testing: Tareas que estén en processo de Testing, ya  sean unitarios o de integración. Por defecto los proyectos de educalabs requieren que todas las funcionalidades esten testeadas antes de ser pasadas a producción.
+
+* Documentation: Tareas Que se encuentran en proceso de documentación. Al igual que con los tests todo el código de educalabs debe estar apropiadamente documentado. Entre las 3 últimas columnas pueden haber a lo más 1.5n (redondeado hacia arriba) tarjetas donde n es el número de desarrolladores en el proyecto.
+
+* Approval: Las tareas que estan esperando el proceso de QA y aprobación del equipo se encuentran en esta columna.
+
+* Done: Las tareas completas y aprobadas del sprint llegan a esta columna.
