@@ -8,16 +8,16 @@ Cada tarjeta tendrá la capacidad de unir servicios como GDrive, Github y campos
 
 Todo el contenido de las tarjetas es en inglés.
 
-## 3 Campos
+## 3. Campos
 
 ### 3.1 Estimate
 Tamaño estimado de una tarea. Unidad de medida dependerá del proyecto.
 
-## Labels
+## 4. Labels
 
 Dependerán del proyecto.
 
-## 6. Columnas
+## 5. Columnas
 Trabajaremos con 7 columnas, las cuales en todo momento deben estar ordenadas por prioridad.:
 
 * To Do: contiene todas las tareas a realizar en la iteración actual.
