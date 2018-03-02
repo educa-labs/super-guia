@@ -10,6 +10,7 @@
 	* [Scrumban](metodologia/scrumban.md)
 	* [Git Flow](metodologia/git_flow.md)
 	* [Bug Tracking](metodologia/bug_tracking.md)
+	* [Commits](metodologia/commits.md) 
 * [Tecnologías](tecnologias/README.md)
 	* [Rails](tecnologias/rails.md)
 	* [Angular](tecnologias/angular.md)

@@ -24,7 +24,7 @@
 * Escritas en Inglés.
 
 * Campos: 
-    * ID: De la forma US-\<plataforma>-\<número>
+    * ID: De la forma US-plataforma>-número
     * Name
     * Estimate: En puntos o en tamaño (S/M/L)
     * Story: “As X I want Y so that Z”
@@ -38,7 +38,7 @@
 *  Las pruebas consisten en los pasos necesarios para verificar la completitud de una historia de usuario.
 
 * Campos
-    * ID: De la forma FT-\<plataforma>-\<número>
+    * ID: De la forma FT-plataforma>-número
     * US ID: ID de la user story asociada.
     * Description: Contenido de la prueba. 
 
